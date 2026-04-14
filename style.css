@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* Menggunakan gambar background teknologi biru sesuai permintaanmu */
+    background-image: url('https://png.pngtree.com/background/20211215/original/pngtree-smart-technology-light-hd-background-picture-image_1473456.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Supaya background tidak ikut bergeser saat di-scroll */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+/* Card dibuat sedikit transparan agar background teknologinya tetap terlihat cantik */
+.card {
+    background: rgba(255, 255, 255, 0.9); 
+    backdrop-filter: blur(5px); /* Efek kaca (glassmorphism) */
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Tombol Linktree Full Width */
+.btn-link {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: white;
+    background: #0984e3; /* Biru cerah agar senada dengan background */
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn-link:hover {
+    background: #74b9ff;
+    transform: scale(1.03);
+}
+
+/* Sisanya (input, label, dll) tetap sama seperti sebelumnya */
+.input-box { text-align: left; margin-bottom: 15px; }
+input { width: 100%; padding: 12px; border-radius: 10px; border: 1px solid #ccc; }
+.btn-primary { width: 100%; padding: 12px; background: #2d3436; color: white; border-radius: 10px; cursor: pointer; border: none; font-weight: bold; }
+.hidden { display: none; }
+.result-container { margin-top: 20px; padding: 15px; background: #e1f5fe; border-radius: 10px; border-left: 5px solid #0984e3; }

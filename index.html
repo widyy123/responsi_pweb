@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsi Widya Rustri Pratiwi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <section class="card">
+            <h2>Digital Persona Finder</h2>
+            <form id="personaForm">
+                <div class="input-box">
+                    <label>Nama</label>
+                    <input type="text" id="inputName" value="Widya Rustri Pratiwi">
+                </div>
+                <div class="input-box">
+                    <label>Hobi Utama</label>
+                    <input type="text" id="inputHobby" value="Karate">
+                </div>
+                <div class="input-box">
+                    <label>Angka Keberuntungan (1-10)</label>
+                    <input type="number" id="inputLucky" value="1" min="1" max="10">
+                </div>
+                <button type="submit" class="btn-primary">Cek Persona</button>
+            </form>
+
+            <div id="resultBox" class="result-container hidden">
+                <p>Persona Kamu:</p>
+                <h3 id="personaText">-</h3>
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="profile-header">
+                <img src="https://ui-avatars.com/api/?name=Widya+Rustri+Pratiwi&background=0984e3&color=fff" style="width:80px; border-radius:50%; border:3px solid #0984e3;">
+                <h2 id="profileNameDisplay">Widya Rustri Pratiwi</h2>
+                <p>Informatics Student | Engineering Faculty</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <a href="https://github.com/account" class="btn-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/widya-pratiwi-230300370/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BHQd9wmnUSt6YR7dIP0hvDA%3D%3D" class="btn-link">LinkedIn</a>
+                <a href="https://www.instagram.com/wdyayyprtiwii" class="btn-link">Instagram</a>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
